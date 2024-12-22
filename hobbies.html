@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hobbies and Interests</title>
+  <style>
+    /* Global styles */
+    body {
+      font-family: 'Arial', sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f4f7fa;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      height: 100vh;
+    }
+
+    /* Header styles */
+    header {
+      background: #3b5998;
+      color: white;
+      text-align: center;
+      padding: 20px 0;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    header h1 {
+      font-size: 36px;
+      margin: 0;
+      letter-spacing: 2px;
+    }
+
+    /* Back button */
+    a {
+      text-decoration: none;
+      color: #fff;
+      font-size: 18px;
+      background: #ff6347;
+      padding: 10px 20px;
+      border-radius: 5px;
+      text-align: center;
+      margin: 20px auto;
+      display: inline-block;
+      transition: background 0.3s;
+    }
+
+    a:hover {
+      background: #ff4500;
+    }
+
+    /* Image container */
+    .image-container {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+      gap: 20px;
+      padding: 20px;
+      justify-content: center;
+      background: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    }
+
+    .image {
+      height: 200px;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+      border-radius: 8px;
+      transition: transform 0.3s ease;
+    }
+
+    .image:hover {
+      transform: scale(1.05);
+    }
+
+    /* Footer styles */
+    footer {
+      background: #3b5998;
+      color: white;
+      text-align: center;
+      padding: 10px;
+      font-size: 14px;
+    }
+
+  </style>
+</head>
+<body>
+<!-- Header -->
+<header>
+  <h1>Hobbies and Interests</h1>
+</header>
+
+<!-- Back button -->
+<a href="javascript:history.back(-1)">Back to Previous Page</a>
+
+<!-- Image display section -->
+<div class="image-container">
+  <div class="image" style="background-image: url('img/20.jpg');"></div>
+  <div class="image" style="background-image: url('img/21.jpg');"></div>
+  <div class="image" style="background-image: url('img/22.jpg');"></div>
+  <div class="image" style="background-image: url('img/26.jpg');"></div>
+  <div class="image" style="background-image: url('66.jpg');"></div>
+  <div class="image" style="background-image: url('777.jpg');"></div>
+  <div class="image" style="background-image: url('77.jpg');"></div>
+</div>
+
+<!-- Footer -->
+<footer>
+  <p>&copy; 2024 Hobbies and Interests | All rights reserved</p>
+</footer>
+</body>
+</html>

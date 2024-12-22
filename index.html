@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me | My Personal Homepage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        .navbar {
+            background-color: #34495e;
+        }
+
+        .navbar .navbar-brand {
+            color: #ecf0f1;
+            font-weight: bold;
+        }
+
+        .navbar .nav-link {
+            color: #ecf0f1;
+            font-weight: 500;
+        }
+
+        .navbar .nav-link:hover {
+            color: #f39c12;
+        }
+
+        .navbar-toggler-icon {
+            background-color: #ecf0f1;
+        }
+
+        .main-content {
+            text-align: center;
+            padding: 80px 20px;
+            background-color: #ffffff;
+            border-radius: 8px;
+            box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+            margin-top: 30px;
+        }
+
+        .main-content h1,
+        .main-content h2 {
+            font-size: 3rem;
+            font-weight: 600;
+            color: #2c3e50;
+        }
+
+        .main-content p,
+        .main-content h2 {
+            font-size: 1.2rem;
+            margin: 20px 0;
+            color: #7f8c8d;
+            line-height: 1.6;
+        }
+
+        .main-content a {
+            margin: 10px 15px;
+            font-size: 1.1rem;
+            border-radius: 30px;
+            transition: all 0.3s ease;
+        }
+
+        .main-content .btn {
+            padding: 10px 25px;
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+
+        .main-content .btn-outline-primary,
+        .main-content .btn-outline-success,
+        .main-content .btn-outline-warning,
+        .main-content .btn-outline-info {
+            color: #3498db;
+            border-color: #3498db;
+        }
+
+        .main-content .btn-outline-primary:hover,
+        .main-content .btn-outline-success:hover,
+        .main-content .btn-outline-warning:hover,
+        .main-content .btn-outline-info:hover {
+            background-color: #3498db;
+            color: white;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 15px;
+            background-color: #34495e;
+            color: #ecf0f1;
+            font-size: 0.9rem;
+            margin-top: 50px;
+        }
+
+        .footer p {
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-light">
+    <div class="container-fluid">
+        <a class="navbar-brand" href="#">Personal Homepage</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link active" href="about.html">About Me</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="hobbies.html">Hobbies</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="shenghuo.html">Life Moments</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="favorites.html">Travel Diaries</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Main Content Area -->
+<div class="main-content">
+    <h1>Hello, I'm Jiang Haoyang!</h1>
+    <p>Welcome to my personal homepage! Here, you'll find more about me, my interests, life moments, and travel stories.</p>
+    <p>I'm a passionate singer who loves to explore new fields of knowledge. I am currently seeking an opportunity where I can unleash my potential and continue to grow.</p>
+    <p>Click on the links below to learn more about me:</p>
+
+    <!-- Links -->
+    <div>
+        <a href="hobbies.html" class="btn btn-outline-primary">Hobbies</a>
+        <a href="shenghuo.html" class="btn btn-outline-success">Life Moments</a>
+        <a href="favorites.html" class="btn btn-outline-warning">Portfolio</a>
+        <a href="about.html" class="btn btn-outline-info">About Me</a>
+        <a href="jianli.html" class="btn btn-outline-info">Resume</a>
+    </div>
+
+    <!-- Group Works -->
+    <h2>Group Works</h2>
+    <div>
+        <a href="assets/1-Reflections-on-the-Current-State-of-the-Short-Vide.pdf" class="btn btn-outline-info">1_Reflections PDF</a>
+        <a href="assets/12组反思报告.pdf" class="btn btn-outline-info">12组反思报告 PDF</a>
+        <a href="assets/北斗七星博客播客反思报告.pdf" class="btn btn-outline-info">北斗七星博客播客反思报告 PDF</a>
+        <a href="assets/英文6组报告.pdf" class="btn btn-outline-info">英文6组报告 PDF</a>
+    </div>
+</div>
+
+<!-- Footer -->
+<div class="footer">
+    <p>© 2024 Jiang Haoyang | All Rights Reserved</p>
+</div>
+
+<!-- 引入Bootstrap JS 和 Popper.js -->
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
