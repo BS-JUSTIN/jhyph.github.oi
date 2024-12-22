@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Life Moments</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f4;
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #333;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+
+    #content {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin: 20px;
+    }
+
+    .moment {
+      width: 300px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+      padding: 20px;
+      margin: 10px;
+      background-color: #fff;
+      box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    }
+
+    .moment img {
+      width: 100%;
+      border-radius: 5px;
+    }
+
+    .moment h2 {
+      margin-top: 10px;
+    }
+
+    .moment p {
+      margin-top: 5px;
+    }
+
+  </style>
+
+</head>
+<body>
+<header>
+  <h1>Life Moments</h1>
+</header>
+<a href="javascript:history.back(-1)" style="text-decoration: none;color: #ff0000;"><h2 style="font-size: 25px;display: inline;margin-left: 250px">Go Back</h2></a>
+<div id="content">
+  <div class="moment">
+    <img src="img/66.jpg" alt="Food Exploration">
+    <h2>Food Exploration</h2>
+    <p>Today I tried a new restaurant and tasted delicious dishes.</p>
+  </div>
+  <div class="moment">
+    <img src="img/77.jpg" alt="Travel Experience">
+    <h2>Travel Experience</h2>
+    <p>I watched a magnificent sunset by the sea and experienced the beauty of nature.</p>
+  </div>
+  <div class="moment">
+    <img src="777.jpg" alt="Dancing">
+    <h2>Dancing</h2>
+    <p>Spent a joyful time with my family, sharing many laughs and fun moments.</p>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
